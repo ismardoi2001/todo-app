@@ -8,6 +8,7 @@ const App =() => {
     <h1> ToDo List</h1>
     <br/>
     <input type="text" placeholder="Add a Item"/>
+    <button> + </button>
     </div>
 
     </div>
