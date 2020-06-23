@@ -7,7 +7,11 @@ const App =() => {
     const itemEvent = (event) => {
         setInputList(event.target.value);
     };
-     const listOfItem = () =>{};
+     const listOfItem = () =>{
+         setItem((olditems) =>{
+             return [...olditems, inputList];
+         })
+     };
     return <>
     <div className="main_div">
     <div className ="center_div">
