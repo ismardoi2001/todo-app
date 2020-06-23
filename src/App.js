@@ -14,6 +14,10 @@ const App =() => {
          })
          setInputList("");
      };
+        const deleteItem = () =>{
+            console.log("deleted");
+        };
+
     return <>
     <div className="main_div">
     <div className ="center_div">
@@ -27,8 +31,15 @@ const App =() => {
 
     <ol>
     {/* <li> {inputList}</li>*/}
-    {item.map((itemval) => {
-     return <ToDoLists text={itemval}/>;
+    {item.map((itemval, index) => {
+        return (
+            <ToDoLists
+            key={index}
+            id={index}
+            text={itemval}
+            onSelect={deleteItem}
+        />
+        );
     })}
     </ol>
     </div>
