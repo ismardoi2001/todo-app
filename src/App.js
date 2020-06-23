@@ -1,6 +1,12 @@
 import React from 'react';
 
 const App =() => {
+    const[inputList , setInputList] = useState ("");
+
+    const itemEvent = (event) => {
+        setInputList(event.target.value);
+    };
+     const listOfItem = () =>{};
     return <>
     <div className="main_div">
     <div className ="center_div">
