@@ -1,8 +1,5 @@
 import React , {useState} from 'react';
-import React, {ToDoLists} from './ToDoLists';
-
-https://www.youtube.com/watch?v=XXRptlP5P6U
-
+import ToDoLists from './ToDoLists';
 
 const App =() => {
     const [inputList , setInputList] = useState ("");
@@ -31,7 +28,7 @@ const App =() => {
     <ol>
     {/* <li> {inputList}</li>*/}
     {item.map((itemval) => {
-    <ToDoLists/>
+     return <ToDoLists text={itemval}/>;
     })}
     </ol>
     </div>
