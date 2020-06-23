@@ -19,6 +19,9 @@ const App =() => {
 
     <ol>
     {/* <li> {inputList}</li>*/}
+    {item.map((itemval) => {
+        return <li>{itemval} </li>
+    })}
     </ol>
     </div>
     </div>
