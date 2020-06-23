@@ -1,6 +1,11 @@
 import React from 'react';
-import Main from './Main';
 
-export default class Main React {
+const App =() => {
+    return <>
+    <div>
+    </div>
+    </>;
+};
+
+export default App;
   
-}
