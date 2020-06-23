@@ -6,6 +6,8 @@ const App =() => {
     <div className ="center_div">
     <br/>
     <h1> ToDo List</h1>
+    <br/>
+    <input type="text" placeholder="Add a Item"/>
     </div>
 
     </div>
