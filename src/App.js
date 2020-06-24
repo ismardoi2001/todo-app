@@ -28,7 +28,6 @@ const App =() => {
     value={inputList}
     onChange={itemEvent}/>
     <button onClick= {listOfItem}> + </button>
-
     <ol>
     {/* <li> {inputList}</li>*/}
     {item.map((itemval, index) => {
